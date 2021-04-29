@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  background: #212529;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+.footer{
+  font-size: 20px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container{
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bar{
+  background: #495057;
+  height: 170px;
+  width: 50px;
+}
+
+@keyframes load {
+  0%{
+    background: #495057;
+    height: 170px;
+    width: 50px;
+  }
+  50%{
+    background: #e9ecef;
+    height: 190px;
+    width: 55px;
+    box-shadow: 0px 0px 30px black;
+  }
+  100%{
+    background: #495057;
+    height: 170px;
+    width: 50px;
+  }
+}
+
+#bar1{
+animation-delay: 0s;
+animation-duration: 1s;
+animation-name: load;
+animation-iteration-count: infinite;
+animation-direction: ease-in-out;
+}
+#bar2{
+animation-delay: .12s;
+animation-duration: 1s;
+animation-name: load;
+animation-iteration-count: infinite;
+animation-direction: ease-in-out;
+}
+#bar3{
+animation-delay: .24s;
+animation-duration: 1s;
+animation-name: load;
+animation-iteration-count: infinite;
+animation-direction: ease-in-out;
+}
+#bar4{
+animation-delay: .36s;
+animation-duration: 1s;
+animation-name: load;
+animation-iteration-count: infinite;
+animation-direction: ease-in-out;
+}
+#bar5{
+animation-delay: .48s;
+animation-duration: 1s;
+animation-name: load;
+animation-iteration-count: infinite;
+animation-direction: ease-in-out;
+}
+#bar6{
+animation-delay: .6s;
+animation-duration: 1s;
+animation-name: load;
+animation-iteration-count: infinite;
+animation-direction: ease-in-out;
+}
